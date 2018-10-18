@@ -10,15 +10,15 @@ public class RationalNumber extends RealNumber
   *@param deno the denominator
   */
   public RationalNumber(int nume, int deno){
+    super(0);//this value is ignored!
     if (deno == 0){
       numerator = 0;
-      denominator = 1
+      denominator = 1;
     }
     else{
       numerator = nume;
       denominator = deno;
     }
-    super(0);//this value is ignored!
   }
 
   public double getValue(){
@@ -78,7 +78,7 @@ public class RationalNumber extends RealNumber
     int Val1 = Math.max(a,b);
     int Val2 = Math.min(a,b);
     while (Val1 % Val2 != 0){
-      int switcher == Val2;
+      switcher == Val2;
       Val1 == Val1 - Val1 % Val2;
       Val2 == switcher;
     }

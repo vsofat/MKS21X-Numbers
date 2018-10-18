@@ -27,7 +27,7 @@ public class RealNumber{
      *Return the this minus the other
      */
     public double subtract(RealNumber other){
-        return return this.getValue() - other.getValue();
+        return this.getValue() - other.getValue();
     }
 
 
