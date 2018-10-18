@@ -26,12 +26,11 @@ public class Driver {
         System.out.println(R3.getValue() + " ?= -62.1");
         System.out.println(R4.getValue() + " ?= 155.25");
         //4
-        /*
+
         System.out.println(R3.add(R4) + " ?= 93.15\n\n4");
         System.out.println(R3.subtract(R4) + " ?= -217.35");
         System.out.println(R3.multiply(R4) + " ?= -9641.025");
         System.out.println(R3.divide(R4) + " ?= -0.4");
-        */
         System.out.println("\nTesting RationalNumber\n5.");
         //5 Basically is testing if your gcd works
         System.out.println(new RationalNumber(3, 9) + " ?= 1/3");
@@ -59,14 +58,14 @@ public class Driver {
         System.out.println(Q4 + " ?= -4/3");
         System.out.println(new RationalNumber(35, 0) + " ?= 0\n\n8.");
         //8
-        /*
+
         System.out.println(Q1.add(Q3) + " ?= 21/10");
         System.out.println(Q2.add(Q4) + " ?= 67/6");
         System.out.println(Q1.multiply(Q2) + " ?= 15/2");
         System.out.println(Q3.multiply(Q4) + " ?= -2");
         System.out.println(Q1.divide(Q4) + " ?= -9/20");
         System.out.println(Q4.subtract(Q1) + " ?= -29/15\n\n9.");
-        */
+
         //9
         RationalNumber Qwow = new RationalNumber(75, 50);
         RationalNumber Quwu = new RationalNumber(69, 115);
@@ -84,11 +83,11 @@ public class Driver {
         System.out.println(Q1.toString());
         System.out.println(Qlmao.equals(new RationalNumber(0, 0)) + " ?= true\n\n10.");
         //10
-        /*
+
         System.out.println(R1.add(Q1) + " ?= 228.1");
         System.out.println(R2.subtract(Q4) + " ?= 33.83333(LotsOf3s)");
         System.out.println(Q3.multiply(R1) + " ?= 341.25");
         System.out.println(Q2.add(R1) + " ?= 240");
-        */
+
     }
 }
